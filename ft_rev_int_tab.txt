@@ -1,0 +1,17 @@
+void ft_rev_int_tab(int *tab, int size);
+    int schitatel' ;
+    char temp;
+    schitatel' = 0;
+whiie(schitatel' < size -1)
+{
+    temp = tab[size];
+    tab[size] = tab[schitatel'];
+    tab[schitatel'] = temp;
+     schitatel'++;
+     size--
+
+}
+int main(){
+    char n=123456;
+    ft_rev_int_tab(n);
+}
